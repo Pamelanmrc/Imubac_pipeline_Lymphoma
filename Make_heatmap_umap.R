@@ -1,7 +1,5 @@
 library(dplyr)
-devtools::install_github("immunogenomics/harmony")
-
-devtools::install_github("casanova-lab/iMUBAC")
+library(iMUBAC)
 
 
 #Write the right FCS files
@@ -22,9 +20,11 @@ for (i in colnames_list){
   
 }
 
-#Read the patien file
+#Read the patient file
 patient_data= read.table("Final_info_patients.txt", sep=" ", header=TRUE, check.names=FALSE)
 
+
+#Function to extract data from csv files and metadata
 make_files<- function(fname, df){
   #sp <- sapply(n_exp, function(fname){ grep (fname, colnames(n_exp))})
   #sp<- grep(i, colnames(n_exp))
