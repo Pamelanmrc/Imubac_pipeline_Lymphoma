@@ -1,11 +1,11 @@
 
-if (!require("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
+#if (!require("BiocManager", quietly = TRUE))
+#  install.packages("BiocManager")
 
 library("flowCore")
 
-setwd("~/all_samples_scales_csv/")
-setwd("~/AIM_cells_channel_csv/")
+#setwd("~/all_samples_scales_csv/")
+#setwd("~/AIM_cells_channel_csv/")
 #CD11c
 #CD138
 #CD19
