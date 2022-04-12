@@ -2,4 +2,6 @@
 Scripts for running Cytek data using IMUBAC 
 
 Un-normalized/batch effects of Cytek data
-[all.pdf](https://github.com/Pamelanmrc/Imubac_pipeline_Lymphoma/files/8474767/all.pdf)
+
+![Batch effect of Cytek data](https://github.com/pamelanmrc/Imubac_pipeline_Lymphoma/blob/main]/all.pdf?raw=true)
+
